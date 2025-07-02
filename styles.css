@@ -1,0 +1,24 @@
+* {
+  color: white;
+  background-color: black;
+}
+header {
+  position: fixed;
+  background-color: blue;
+  position: auto;
+  padding: 20px;
+}
+.sidebar * {
+  color: aquamarine;
+  background-color: brown;
+  width: 100px;
+  left: 500px;
+}
+aside > h3 {
+  position: relative;
+  left: 500px;
+}
+aside > ul {
+  position: relative;
+  left: 500px;
+}
