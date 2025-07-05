@@ -1,41 +1,33 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #9ad79b;
+}
+/* Declaración de variables */
 :root {
-  --rightmargin: 200px;
-  --leftmargin: 200px;
   --padding: 20px;
   --border: 20px;
-  --margin: 10px;
-}
-* {
-  color: white;
-  background-color: rgb(55, 53, 53);
+  --margin: 50%;
 }
 header {
-  width: 50%;
-  /* margin: 100px; */
+  width: 200px;
   position: fixed;
   background-color: blue;
   top: 5px;
   margin-bottom: 50px;
   padding: 20px;
 }
-/* main aside {
-  position: relative;
-  right: 10px;
-  color: aquamarine;
-  background-color: rgb(168, 82, 82);
-  width: 100px;
-  left: 500px;
-} */
-/* .sidebar > h3 {
-  position: relative;
-  left: 700px;
-}
-.sidebar > ul {
-  position: relative;
-  left: 700px;
-} */
 .content {
-  /* position: relative; */
   border-width: 2px;
   padding: 10px;
   border-color: rgb(0, 255, 195);
@@ -48,37 +40,9 @@ header {
   border-color: rgb(0, 255, 195);
   border-style: solid;
   padding-bottom: 10px;
-  /* border-bottom: 0px; */
   margin-bottom: 100px;
-}
-
-.features > h2 {
-  padding: var(--padding);
-  border: var(--border);
-  margin: var(--margin);
-  margin-right: var(--rightmargin);
-  margin-left: var(--leftmargin);
-}
-.feature {
-  box-sizing: content-box;
-  height: 60px;
-  width: 500px;
-  padding: var(--padding);
-  border: var(--border);
-  margin: var(--margin);
-  margin-right: var(--rightmargin);
-  margin-left: var(--leftmargin);
-}
-.feature > span {
-  padding: var(--padding);
-  border: var(--border);
-  margin-left: 90px;
-}
-.feature > button {
-  margin-left: 90px;
-}
-.features button {
-  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
 }
 footer {
   padding-left: 10px;
